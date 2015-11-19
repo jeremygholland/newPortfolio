@@ -1,5 +1,31 @@
+body{
+	background-color: white;
+}
+.container{
+	height: 200vh;
+	max-width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.containLeft{	
+	max-height: 200vh;
+	max-width: 100%;
+}
+.containRight{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	.card-content{
+	 background-color:black;
+	 color: white;
+	}
+}
+
 .mePic{
 	width: 100%;
+	background-color: #e74c3c;
 	.card{
 		background-color: #e74c3c;
 	}
@@ -7,22 +33,43 @@
 		display: block;
 		margin: 0 auto;
 		width: 100%;
-		min-height: 50vh;
-		min-width: 20vw;
-		max-height: 80vh;
-		max-width: 50vw;
+		height: 60vh;
+		width: 30vw;
 	}
 }
 .contact{
 	border-top: 2px solid white;
-		background-color: #e74c3c;
 		i{ color: #f1c40f}
 		a{color: white;}
 		a:hover{color:#2980b9}
 
 }
-.aboutMe{
-	margin-top: 2vh;
+.aboutMe, .skillSet,.contact,.skillSet{
+	margin-top: 20px;
+	background-color: #e74c3c;
 	border-top: 2px solid white;
 	color:white;
+	flex: 1 1 auto;
+}
+
+#projTitle{
+	font-weight: 200;
+}
+
+.imgCard{
+	width: 50%;
+}
+
+#modal1{
+	color: black;
+}
+.testImg{
+	height: 100%;
+	width: 100%;
+}
+
+.modal-footer{
+	a{
+		cursor: pointer;
+	}
 }

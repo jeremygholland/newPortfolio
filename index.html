@@ -8,43 +8,146 @@
     <title>Untitled</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="author" href="humans.txt">
 </head>
 
 <body>
     <div class="container">
-        <div class="mePic">
-            <div class="row">
-                <div class="col s12 m6">
+        <div class="row">
+            <div class="containLeft">
+                <div class="col s12 m12">
                     <div class="card">
-                        <div class="card-content white-text">
-                            <img src="img/jeremygholland.jpeg" alt="" class="circle responsive-img">
-                            <span class="card-title">Jeremy Holland</span>
-                            <p>Front End Web Developer</p>
-                        </div>
-                        <div class="contact">
+                        <div class="mePic">
                             <div class="card-content white-text">
-                                <ul class="fa-ul">
-                                    <li><i class="fa-li fa fa-phone-square fa"></i><a href="tel:15127698548">512.769.8548</a></li>
-                                    <li><i class="fa-li fa-envelope fa"></i> <a href="mailto:jeremygholland@gmail.com"> jeremygholland@gmail.com</a></li>
-                                    <li><i class="fa-li fa-github fa"></i> <a href="https://github.com/jeremygholland"> jeremygholland</a></li>
-                                    <li><i class="fa-li fa-linkedin-square fa"> </i> <a href="https://www.linkedin.com/in/jeremy-holland-b3026597"> Jeremy Holland</a></li>
-                                </ul>
+                                <img src="img/jeremygholland.jpeg" alt="" class="circle responsive-img">
+                                <span class="card-title">Jeremy Holland</span>
+                                <p>Front End Web Developer</p>
                             </div>
-                        </div>
-                        <div class="aboutMe">
-                            <div class="card-content text-white">
-                                <p class="left-align"> I am a front end web developer. I primarily work in Angular, though I am versed in both jQuery and Meteor.js. I put an emphasis on material design and love using preprocessors such as Sass. </p>
+                            <div class="contact">
+                                <div class="card-content white-text">
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-phone-square fa"></i><a href="tel:15127698548">512.769.8548</a></li>
+                                        <li><i class="fa-li fa-envelope fa"></i> <a href="mailto:jeremygholland@gmail.com"> jeremygholland@gmail.com</a></li>
+                                        <li><i class="fa-li fa-github fa"></i> <a href="https://github.com/jeremygholland"> jeremygholland</a></li>
+                                        <li><i class="fa-li fa-linkedin-square fa"> </i> <a href="https://www.linkedin.com/in/jeremy-holland-b3026597"> Jeremy Holland</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="aboutMe">
+                                <div class="card-content text-white">
+                                    <p class="left-align"> I am a front end web developer. I primarily work in Angular, though I am versed in both jQuery and Meteor.js. I put an emphasis on material design and love using preprocessors such as Sass. </p>
+                                </div>
+                            </div>
+                            <div class="skillSet">
+                                <div class="card-content">
+                                    <p>Javascript</p>
+                                    <div class="progress">
+                                        <div class="determinate" style="width: 80%"></div>
+                                    </div>
+                                    <p>Angular</p>
+                                    <div class="progress">
+                                        <div class="determinate" style="width: 80%"></div>
+                                    </div>
+                                    <p>HTML/CSS</p>
+                                    <div class="progress">
+                                        <div class="determinate" style="width: 90%"></div>
+                                    </div>
+                                    <p>Sass</p>
+                                    <div class="progress">
+                                        <div class="determinate" style="width: 70%"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </section>
         </div>
-        <script src="js/script.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <div class="imgCard">
+            <div>
+                <a class="waves-effect waves-light trigger1" href="#modal1"><img src="img/marvel2.png" alt="" class="testImg"></a>
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <div>
+                            <div>
+                                <div class="projStuff text-center">
+                                    <h3>KittyWars</h3>
+                                    <p class="projDesc"> A trading game in which the player will travel and trade in kitten based wares, including catnip and scratching posts, to accumulate more Cheezeburgers(money). This MVC game utilizes AngularJS from DOM manipulation and AngularFire as a backend database and authentication service.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">View on Github</a>
+                        <a href="http://lychee-cake-7634.herokuapp.com" class="btn"> View Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="imgCard">
+                    <div>
+                        <a class="waves-effect waves-light trigger1" href="#modal1"><img src="img/test.jpg" alt="" class="testImg"></a>
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                            <div class="modal-content">
+                                <div>
+                                    <div>
+                                        <div class="projStuff text-center">
+                                            <h3>KittyWars</h3>
+                                            <p class="projDesc"> A trading game in which the player will travel and trade in kitten based wares, including catnip and scratching posts, to accumulate more Cheezeburgers(money). This MVC game utilizes AngularJS from DOM manipulation and AngularFire as a backend database and authentication service.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">View on Github</a>
+                                <a href="http://lychee-cake-7634.herokuapp.com" class="btn"> View Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="row">
+            <div class="col m6">
+                <div class="containRight animated fadeIn">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2 class="text-center" id="projTitle">Projects</h2>
+                            <div class="text-center">
+                                <h3>GovTracks</h3>
+                                <p class="projDesc"> This project allows for a user to enter their zip code and, using the Sunlight Foundation's APIs, find information for their congressmen. This includes financial contribution data, as well as bills submitted and the committees that they are on. It uses Meteor for both client and server side operations.</p>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="projStuff text-center">
+                                <h3>ConcertSteam.com</h3>
+                                <p class="projDesc"> This is a sample landing page that I made which illustrates my understanding of responsive design. This also has an accompanying HTML email. It utilizes Materialize, Zurb's Ink and is largely a design example.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="projStuff text-center">
+                                    <h3>KittyWars</h3>
+                                    <p class="projDesc"> A trading game in which the player will travel and trade in kitten based wares, including catnip and scratching posts, to accumulate more Cheezeburgers(money). This MVC game utilizes AngularJS from DOM manipulation and AngularFire as a backend database and authentication service.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <div class="projStuff text-center">
+                                <h3>Watcher Watch</h3>
+                                <p class="projDesc"> A search app using Marvel Comics's RESTful API to pull all events shared between two comic book characters. The user can then click on one of these events and see a summary of this event, as well as a list of characters and comics involved therein. It uses jQuery andfor most of its DOM manipulation and as well for AJAX calls.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
