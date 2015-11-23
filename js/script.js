@@ -5,4 +5,16 @@ $(document).ready(function(){
       in_duration: 300, // Transition in duration
       out_duration: 200, // Transition out duration
   });
+	 $('.trigger2').leanModal({
+	 	dismissible:true,
+	 	opacity: .1,
+	 	in_duration: 300,
+	 	out_duration: 200,
+	 });
+	 $('.trigger3').leanModal({
+	 	dismissible:true,
+	 	opacity: .1,
+	 	in_duration: 300,
+	 	out_duration: 200,
+	 });
 	});

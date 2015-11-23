@@ -21,7 +21,7 @@
                     <div class="card">
                         <div class="mePic">
                             <div class="card-content white-text">
-                                <img src="img/jeremygholland.jpeg" alt="" class="circle responsive-img">
+                                <img src="img/jeremygholland.png" alt="" class=" responsive-img">
                                 <span class="card-title">Jeremy Holland</span>
                                 <p>Front End Web Developer</p>
                             </div>
@@ -65,62 +65,76 @@
                 </div>
             </div>
             <div class="containRight">
-                <div class="col m12 s12">
-                    <div class="imgCard">
-                        <div>
-                            <a class="waves-effect waves-light trigger1" href="#modal1"><img src="img/marvel2.png" alt="" class="testImg"></a>
+                <div class="titleProj">
+                <h1> Projects</h1>
+                </div>
+                    <div class="imgCard" id = "firstImg">
+                        <div class = "imgFlexContain">
+                            <a class="waves-effect waves-light trigger2" href="#modal1"><img src="img/govtracks.png" alt="" class="modalImg"></a>
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
                                 <div class="modal-content">
                                     <div>
                                         <div>
                                             <div class="projStuff text-center">
-                                                <h3>KittyWars</h3>
-                                                <p class="projDesc"> A trading game in which the player will travel and trade in kitten based wares, including catnip and scratching posts, to accumulate more Cheezeburgers(money). This MVC game utilizes AngularJS from DOM manipulation and AngularFire as a backend database and authentication service.</p>
+                                                <h3>GovTracks</h3>
+                                                <p class="projDesc"> This project allows for a user to enter their zip code and, using the Sunlight Foundation's APIs, find information for their congressmen. This includes financial contribution data, as well as bills submitted and the committees that they are on. It uses Meteor for both client and server side operations.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="https://github.com/jeremygholland/marvelAPI" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">View on Github</a>
-                                    <a href="http://lychee-cake-7634.herokuapp.com" class="btn"> View Demo</a>
+                                    <a href="https://github.com/jeremygholland/govTracks" class="waves-effect waves-teal btn-flat"class = "leftModalBtn">View on Github</a>
+                                    <a href="govtracks.meteor.com" class="waves-effect waves-teal btn-flat"> View Demo</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <h2 class="text-center" id="projTitle">Projects</h2>
-                            <div class="text-center">
-                                <h3>GovTracks</h3>
-                                <p class="projDesc"> This project allows for a user to enter their zip code and, using the Sunlight Foundation's APIs, find information for their congressmen. This includes financial contribution data, as well as bills submitted and the committees that they are on. It uses Meteor for both client and server side operations.</p>
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="projStuff text-center">
-                                <h3>ConcertSteam.com</h3>
-                                <p class="projDesc"> This is a sample landing page that I made which illustrates my understanding of responsive design. This also has an accompanying HTML email. It utilizes Materialize, Zurb's Ink and is largely a design example.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-content">
-                                <div class="projStuff text-center">
-                                    <h3>KittyWars</h3>
-                                    <p class="projDesc"> A trading game in which the player will travel and trade in kitten based wares, including catnip and scratching posts, to accumulate more Cheezeburgers(money). This MVC game utilizes AngularJS from DOM manipulation and AngularFire as a backend database and authentication service.</p>
+                     <div class="imgCard">
+                        <div class = "imgFlexContain">
+                            <a class="waves-effect waves-light trigger3" href="#modal3"><img src="img/concertSteam.png" alt="" class="modalImg"></a>
+                            <!-- Modal Structure -->
+                            <div id="modal3" class="modal">
+                                <div class="modal-content">
+                                    <div>
+                                        <div>
+                                            <div class="projStuff text-center">
+                                                <h3>Concert Steam</h3>
+                                                <p class="projDesc"> This is a sample landing page that I made which illustrates my understanding of responsive design. This also has an accompanying HTML email. It utilizes Materialize, Zurb's Ink and is largely a design example.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://github.com/jeremygholland/concertSteam" class="waves-effect waves-teal btn-flat"class = "leftModalBtn">View on Github</a>
+                                    <a href="http://jeremygholland.github.io/concertSteam/" class="waves-effect waves-teal btn-flat"> View Demo</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-content">
-                            <div class="projStuff text-center">
-                                <h3>Watcher Watch</h3>
-                                <p class="projDesc"> A search app using Marvel Comics's RESTful API to pull all events shared between two comic book characters. The user can then click on one of these events and see a summary of this event, as well as a list of characters and comics involved therein. It uses jQuery andfor most of its DOM manipulation and as well for AJAX calls.</p>
+                    </div>
+                    <div class="imgCard" id = "lastImg">
+                        <div class = "imgFlexContain">
+                            <a class="waves-effect waves-light trigger1" href="#modal2"><img src="img/blog.png" alt="" class="modalImg"></a>
+                            <!-- Modal Structure -->
+                            <div id="modal2" class="modal">
+                                <div class="modal-content">
+                                    <div>
+                                        <div>
+                                            <div class="projStuff text-center">
+                                                <h3>Jeremy G Holland Blog</h3>
+                                                <p class="projDesc"> This is MEAN stack blogging app which currently hosts my baseball related blog posts. It allows for people to view current posts and comments related to individual posts, while also allowing for registered users to add posts and comments. This blog uses passport for verification and uses Materialize.css for its styling.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://github.com/jeremygholland/jeremyghollandBlog" class="waves-effect waves-teal btn-flat">View on Github</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
-    </div>
     </div>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>

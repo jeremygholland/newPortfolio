@@ -1,25 +1,24 @@
 body{
 	background-color: white;
 }
-.container{
-	height: 200vh;
-	max-width: 100vw;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-
-.containLeft{	
-	max-height: 200vh;
-	max-width: 100%;
-}
 .containRight{
 	width: 100%;
-	display: flex;
+	display: inline-flex;
+	background-color: black;
 	flex-wrap: wrap;
+	justify-content:space-between;
 	.card-content{
 	 background-color:black;
 	 color: white;
+	}
+	.titleProj{
+		width: 100%;
+		margin: 25px;
+	}
+	h1{
+		font-weight: 100;
+		margin: 0 auto;
+		color: white;
 	}
 }
 
@@ -32,9 +31,8 @@ body{
 	img{
 		display: block;
 		margin: 0 auto;
-		width: 100%;
-		height: 60vh;
-		width: 30vw;
+		max-height: 30vh;
+		width: auto;
 	}
 }
 .contact{
@@ -56,20 +54,48 @@ body{
 	font-weight: 200;
 }
 
-.imgCard{
-	width: 50%;
+
+
+.imgFlexContain{
+	width: 100%;
+
 }
 
 #modal1{
 	color: black;
 }
-.testImg{
-	height: 100%;
-	width: 100%;
+.modalImg{
+	height: 200px;
+	max-height: 250px;
+	width: auto;
+	max-width: 100%;
+
 }
 
 .modal-footer{
 	a{
 		cursor: pointer;
 	}
+	.leftModalBtn{
+		margin-right: 20%;
+	}
+}
+@media screen and (max-width: 480px){
+	.imgCard{
+		position: relative;
+	width: 100%;
+}
+.modalImg{
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+#firstImg{
+	margin-left: none;
+}
+#lastImg{
+	margin-right: none;
+}
 }
