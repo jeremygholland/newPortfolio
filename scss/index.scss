@@ -1,5 +1,11 @@
 body{
-	background-color: white;
+	background-color: #FBE9E7;
+}
+#firstImg{
+	margin-left: 2%;
+}
+#lastImg{
+	margin-right: 2%;
 }
 .containRight{
 	width: 100%;
@@ -23,6 +29,10 @@ body{
 }
 
 .mePic{
+	p{
+		font-weight: 100;
+		font-size: 1.2em;
+	}
 	width: 100%;
 	background-color: #e74c3c;
 	.card{
@@ -42,8 +52,11 @@ body{
 		a:hover{color:#2980b9}
 
 }
+.skillSet{
+	word-spacing: 4px;
+}
 .aboutMe, .skillSet,.contact,.skillSet{
-	margin-top: 20px;
+	margin: 0 auto;
 	background-color: #e74c3c;
 	border-top: 2px solid white;
 	color:white;
@@ -55,10 +68,14 @@ body{
 }
 
 
-
 .imgFlexContain{
 	width: 100%;
 
+}
+
+.imgCard{
+	width: 30%;
+	padding-bottom: 50px;
 }
 
 #modal1{
@@ -80,6 +97,32 @@ body{
 		margin-right: 20%;
 	}
 }
+.resumeCard{
+	background-color: black;
+	h1{
+		font-weight: 100;
+		color: white;
+		display: block;
+		margin: 0 auto;
+	}
+	color: black;
+	h5{
+		font-weight: 200;
+	}
+	.textLang{
+		background-color: black;
+		color:white;
+		border-bottom: 2px solid white;
+		margin-bottom: 5px;
+		padding-bottom: 45px;
+		padding-top: 20px;
+	}
+	#finalRes{
+		padding: none;
+		border-bottom: none;
+	}
+
+}
 @media screen and (max-width: 480px){
 	.imgCard{
 		position: relative;
@@ -89,7 +132,7 @@ body{
 	width: 95%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 5px;
+	margin-top: 25px;
 
 }
 #firstImg{
@@ -97,5 +140,36 @@ body{
 }
 #lastImg{
 	margin-right: none;
+	margin-bottom: 20px;
+}
+.titleProj{
+		display: block;
+		margin: 0 auto;
+	}
+.resumeCard{
+	background-color: black;
+	h1{
+		font-weight: 100;
+		color: white;
+		display: block;
+		margin: 0 auto;
+	}
+	color: black;
+	h5{
+		font-weight: 200;
+	}
+	.textLang{
+		background-color: black;
+		color:white;
+		border-bottom: 2px solid white;
+		margin-bottom: 5px;
+		padding-bottom: 45px;
+		padding-top: 20px;
+	}
+	#finalRes{
+		padding: none;
+		border-bottom: none;
+	}
+
 }
 }
